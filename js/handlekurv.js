@@ -9,8 +9,12 @@ ga('ec:addProduct', {
     'quantity': 2
 });
 
+ga('ec:setAction', 'add');
+
+ga('send', 'pageview');
+
 ga('ec:setAction','checkout', {
     'step': 1
 });
+ga('send', 'event', 'Butikk', 'Handlekurv', 'Vis');
 
-ga('send', 'pageview');
