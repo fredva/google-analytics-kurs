@@ -11,8 +11,8 @@ ga('ec:addProduct', {
 
 ga('ec:setAction', 'purchase', {
     'id': 'O1234',
-    'revenue': '9999',
-    'tax': '199.8',
+    'revenue': '19998',
+    'tax': '3999.6',
     'shipping': '0',
 });
 
