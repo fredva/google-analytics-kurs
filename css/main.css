@@ -1,3 +1,11 @@
 body {
     padding-left: 1em;
 }
+
+.product {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}

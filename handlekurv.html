@@ -16,28 +16,14 @@
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
             ga('create', 'UA-85449688-1', 'auto');
-            ga('send', 'pageview');
         </script>
     </head>
     <body>
-        <h1>Søk</h1>
-        <p>Google Analytics støtter sporing av søk</p>
-        <form action="sok.html" method="GET">
-            <input placeholder="Søk her" type="text" name="q" id="searchinput" />
-            <input type="submit" value="Søk" />
-        </form>
+        <h1>Handlekurv</h1>
+        <p>Du har følgende varer i handlekurven</p>
+        <p>TV, 50", LED, 1 stk, 9999,-</p>
+        <a href="kasse.html">Gå til kasse</a>
 
-        <a href="produktliste.html">Gå til listen over produkter</a>
-
-        <script src="js/search.js"></script>
-        <script>
-            var query = getParameterByName("q");
-            if (query) {
-               var searched = document.createElement("p");
-               document.body.innerHTML += "<p>Du søkte etter \"" + query + "\"</p>"
-            } else {
-               document.body.innerHTML += "<p>Skriv inn et søkeord.</p>"
-            }
-        </script>
+        <script src="js/handlekurv.js"></script>
     </body>
 </html>

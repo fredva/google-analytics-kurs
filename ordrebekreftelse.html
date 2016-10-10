@@ -20,24 +20,10 @@
         </script>
     </head>
     <body>
-        <h1>Søk</h1>
-        <p>Google Analytics støtter sporing av søk</p>
-        <form action="sok.html" method="GET">
-            <input placeholder="Søk her" type="text" name="q" id="searchinput" />
-            <input type="submit" value="Søk" />
-        </form>
+        <h1>Takk for din bestilling!</h1>
+        <p>Vi håper du blir fornøyd med din nye TV.</p>
+        <a href="index.html">Tilbake til forsiden</a>
 
-        <a href="produktliste.html">Gå til listen over produkter</a>
-
-        <script src="js/search.js"></script>
-        <script>
-            var query = getParameterByName("q");
-            if (query) {
-               var searched = document.createElement("p");
-               document.body.innerHTML += "<p>Du søkte etter \"" + query + "\"</p>"
-            } else {
-               document.body.innerHTML += "<p>Skriv inn et søkeord.</p>"
-            }
-        </script>
+        <script src="js/ordrebekreftelse.js"></script>
     </body>
 </html>
