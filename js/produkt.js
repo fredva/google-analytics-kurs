@@ -4,7 +4,7 @@ ga('ec:addProduct', {
     'name': 'TV',
     'category': 'Lyd og bilde',
     'brand': 'Samsung',
-    'variant': '50"',
+    'variant': '50 tommer',
     'price': '9999'
 });
 
